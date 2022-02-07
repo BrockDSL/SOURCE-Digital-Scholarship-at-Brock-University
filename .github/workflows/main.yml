@@ -22,7 +22,10 @@ jobs:
 
       - name: Build
         run: hugo
-
+        
+      - name: PostCss Init
+        run: npm i -g postcss-cli
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
