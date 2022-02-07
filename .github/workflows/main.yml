@@ -20,7 +20,7 @@ jobs:
         with:
           hugo-version: 'latest'
 
-     - name: Install dependencies
+      - name: Install dependencies
         run: |
           npm install postcss -D
           npm install -g postcss-cli
