@@ -23,8 +23,11 @@ jobs:
       - name: Build
         run: hugo
         
-      - name: PostCss Init
-        run: npm i -g postcss-cli
+      - name: Install dependencies
+        run: |
+          npm install postcss -D
+          npm install -g postcss-cli
+          npm install -g autoprefixer
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
