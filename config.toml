@@ -1,4 +1,4 @@
-baseURL = 'https://DanielBrett.github.io/Digital-Scholarship-at-Brock-University'
+baseURL = 'https://BrockDSL.github.io/Digital-Scholarship-at-Brock-University'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'blist'
