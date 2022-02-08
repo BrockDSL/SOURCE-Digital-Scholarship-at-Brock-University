@@ -33,7 +33,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: DanielBrett/Digital-Scholarship-at-Brock-University
+          external_repository: BrockDSL/Digital-Scholarship-at-Brock-University
           publish_branch: master
           publish_dir: ./public
 
