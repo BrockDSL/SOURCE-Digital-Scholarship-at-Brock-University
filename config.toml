@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'blist'
 metaDataFormat = "yaml"
+googleAnalytics = "UA-128270403-1"
 
 [params]
   # Enable the darkmode toggle in header
