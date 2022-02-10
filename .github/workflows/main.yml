@@ -1,34 +1,39 @@
 
+#Name of action
 name: hugo CI
 
+#This makes the action trigger on any push or commit to the master branch of the repository
 on:
   push:
     branches: [ master ]
 
+
+#This is the list of tasks that the action will execute.  They will be executed in order an in an Ubuntu environment
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      #This task checks out the git repository so it can be used by your workflow and action
       - uses: actions/checkout@v2
         with:
           submodules: true 
           fetch-depth: 1   
-
+      #This task sets up hugo in the actions environment
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-
+      #This task installs the dependencies required for hugo to build a site using the "Blist" theme
       - name: Install dependencies
         run: |
           npm install postcss -D
           npm install -g postcss-cli
           npm install -g autoprefixer
-
+      #This task executes the hugo build command
       - name: Build
         run: hugo
-        
+      #This task takes the newly built version of the site and pushes it to the Front_End repository
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
