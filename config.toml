@@ -1,11 +1,17 @@
-baseURL = 'https://BrockDSL.github.io/Digital-Scholarship-at-Brock-University'
+baseURL = 'https://DanielBrett.github.io/copy-Digital-Scholarship-at-Brock-University'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Digital Scholarship at Brock University'
 theme = 'blist'
 metaDataFormat = "yaml"
 googleAnalytics = "UA-128270403-1"
 
 [params]
+  
+  introTitle = "Welcome to Digital Scholarship at Brock"
+  introSubtitle = "The home of digital innovation at Brock University"
+  introPhoto = "./Images/DSL-Image.jpg"
+  
+  
   # Enable the darkmode toggle in header
   darkModeToggle = true
   
@@ -13,32 +19,43 @@ googleAnalytics = "UA-128270403-1"
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Daniel is Great.  Mwahahahaha · All rights reserved"
+  copyright = "This site is maintained by the Brock University Digital Scholarship Lab"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+  ascentColor = "bg-red-500"
+  
+  
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
   
 [params.homepage.social]
   # Global params xommon for both languages
-  title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
-  twitter = "https://twitter.com/"
-  linkedin = "https://linkedin.com/in/"
-  xing = "https://www.xing.com/profile/"
-  github = "https://github.com/"
-  medium = "https://medium.com/"
-  reddit = "https://reddit.com/"
-  dribbble = "https://dribbble.com/"
+  title = "Follow us"
+  description = "Follow us on social media for more from the Brock DSL"
+  twitter = "https://twitter.com/brock_dsl"
+  github = "https://github.com/BrockDSL"
+  
+[[menu.main]]
+  name = "Workshops"
+  url = "blog"
+  weight = 1
+
+[[menu.main]]
+  name = "Resources"
+  url = "pages"
+  weight = 2
 
 [[menu.main]]
   name = "About"
-  url = "/about"
+  url = "about"
+  weight = 3
 
 [build]
-  writeStats = true
+  writeStats = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
