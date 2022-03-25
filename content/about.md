@@ -1,12 +1,12 @@
 ---
 author: Brock DSL
 title: About
-date: 2022-02-17
-description:
-keywords: ["about-us", "about-hugo", "contact"]
+keywords: ["about-us", "contact"]
 type: about
 ---
 
 The Brock Digital Scholarship Lab supports and maintains this site.
 
 For more information, contact DSL@brocku.ca
+
+This site uses an edited version of the [Blist](https://github.com/apvarun/blist-hugo-theme) Hugo theme.
