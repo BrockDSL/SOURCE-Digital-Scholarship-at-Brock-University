@@ -1,5 +1,5 @@
 <div class="p-2">
-<a href="{{ .Permalink }}">
+<a href="{{ .Params.sitelink }}">
   {{ if .Params.thumbnail }}
   <div class="relative">
     <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
