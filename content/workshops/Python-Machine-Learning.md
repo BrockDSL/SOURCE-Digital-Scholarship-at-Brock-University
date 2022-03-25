@@ -9,3 +9,6 @@ sitelink: https://brockdsl.github.io/Machine_Learning_with_Python/
 ---
 
 
+Python is heckin neat!
+
+Woop!
