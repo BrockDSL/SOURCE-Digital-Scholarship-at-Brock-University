@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "hugo server --disableFastRender",
+    "start-examplesite": "hugo server -s exampleSite --themesDir=../.. --disableFastRender",
     "build": "NODE_ENV=production hugo --gc"
   },
   "devDependencies": {
