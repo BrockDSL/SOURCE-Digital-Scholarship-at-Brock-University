@@ -1,4 +1,4 @@
-baseURL = 'https://BrockDSL.github.io/Digital-Scholarship-at-Brock-University'
+baseURL = 'https://BrockDSL.github.io'
 languageCode = 'en-us'
 title = 'Digital Scholarship at Brock University'
 theme = 'blist'
