@@ -5,7 +5,6 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
   content: [
     "./hugo_stats.json",
     themeDir + "/hugo_stats.json",
-    "exampleSite/hugo_stats.json",
   ],
   defaultExtractor: (content) => {
     let els = JSON.parse(content).htmlElements;
