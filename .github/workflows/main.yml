@@ -40,7 +40,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: BrockDSL/BrockDSL.github.io
+          external_repository: BrockDSL/testrepo
           publish_branch: master
           publish_dir: ./public
 
