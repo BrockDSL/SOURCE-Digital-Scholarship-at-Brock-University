@@ -1,6 +1,12 @@
 const themeDir = __dirname + "/../../";
 
 module.exports = {
+   theme: {
+    colors: {
+      'BrockRed': '#cc0000',
+    },
+  },
+  
   purge: {
     enabled: process.env.HUGO_ENVIRONMENT === "production",
     content: [
