@@ -29,7 +29,7 @@ googleAnalytics = "UA-128270403-1"
   
   
   # The page bundle that is shown on the front page
-  frontBundle = "workshops"
+  frontBundle = "resources"
 
   
 [params.homepage.social]
@@ -39,20 +39,31 @@ googleAnalytics = "UA-128270403-1"
   twitter = "https://twitter.com/brock_dsl"
   github = "https://github.com/BrockDSL"
   
-[[menu.main]]
-  name = "Workshops"
-  url = "workshops"
-  weight = 1
 
 [[menu.main]]
   name = "Resources"
   url = "resources"
+  weight = 1
+
+[[menu.main]]
+  name = "Tutorials"
+  url = "tutorials"
   weight = 2
+
+[[menu.main]]
+  name = "Projects"
+  url = "projects"
+  weight = 3
+
+[[menu.main]]
+  name = "Events"
+  url = "events"
+  weight = 4
 
 [[menu.main]]
   name = "About"
   url = "about"
-  weight = 3
+  weight = 5
 
 [build]
   writeStats = false
