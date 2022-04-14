@@ -25,7 +25,7 @@ googleAnalytics = "UA-128270403-1"
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-[#CC0000] "
+  ascentColor = "BrockRed"
   
   
   # The page bundle that is shown on the front page
