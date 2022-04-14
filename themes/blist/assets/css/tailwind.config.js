@@ -2,8 +2,10 @@ const themeDir = __dirname + "/../../";
 
 module.exports = {
    theme: {
-    colors: {
-      'BrockRed': '#cc0000',
+      extend:{
+         colors: {
+            BrockRed: '#CC0000',
+         },     
     },
   },
   
