@@ -6,15 +6,15 @@ metaDataFormat = "yaml"
 googleAnalytics = "UA-128270403-1"
 
 [params]
-  
+
   introTitle = "Welcome to Digital Scholarship at Brock"
   introSubtitle = "The home of digital innovation at Brock University"
   introPhoto = "./Images/DSL-Image.jpg"
-  
-  
+
+
   # Enable the darkmode toggle in header
   darkModeToggle = true
-  
+
   # Enable search in header
   enableSearch = true
 
@@ -25,30 +25,31 @@ googleAnalytics = "UA-128270403-1"
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-red-400"
-  
-  
-  # The page bundle that is shown on the front page
-  frontBundle = "resources"
+  #ascentColor = "bg-red-400"
+  ascentColor = "bg-gray-300"
 
-  
+  # The page bundle that is shown on the front page
+  frontBundle = "workshops"
+
+
 [params.homepage.social]
   # Global params xommon for both languages
   title = "Follow us"
   description = "Follow us on social media for more from the Brock DSL"
   twitter = "https://twitter.com/brock_dsl"
   github = "https://github.com/BrockDSL"
-  
+  instagram ="https://https://www.instagram.com/brock_dsl/"
+
 
 [[menu.main]]
-  name = "Resources"
-  url = "resources"
+  name = "Workshops"
+  url = "workshops"
   weight = 1
 
-[[menu.main]]
-  name = "Tutorials"
-  url = "tutorials"
-  weight = 2
+#[[menu.main]]
+#  name = "Tutorials"
+#  url = "tutorials"
+#  weight = 2
 
 [[menu.main]]
   name = "Projects"
