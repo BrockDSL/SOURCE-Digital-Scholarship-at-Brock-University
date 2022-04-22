@@ -26,7 +26,8 @@ googleAnalytics = "UA-128270403-1"
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
   #ascentColor = "bg-red-400"
-  ascentColor = "bg-gray-300"
+  ascentColor = "bg-[#550000]"
+  #ascentColor = "bg-gray-300"
 
   # The page bundle that is shown on the front page
   frontBundle = "workshops"
