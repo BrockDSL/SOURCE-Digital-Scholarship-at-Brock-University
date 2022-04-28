@@ -1,4 +1,4 @@
 ---
 author: Brock DSL
-title: Resources
+title: Workshops
 ---
