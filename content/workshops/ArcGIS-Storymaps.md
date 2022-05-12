@@ -4,5 +4,5 @@ description: "Learn the basics of using ArcGIS Storymaps to make beautiful inter
 date:
 thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/ArcGIS-Storymaps.jpg?raw=true
 draft: false
-sitelink: https://brockdsl.github.io/StoryMap-Demo2/
+sitelink: https://brockdsl.github.io/StoryMaps-Demo2/
 ---
