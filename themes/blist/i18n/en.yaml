@@ -8,9 +8,9 @@
 - id: translationsSeparator
   translation: ", "
 - id: readMore
-  translation: "Read More"
+  translation: "More"
 - id: morePosts
-  translation: "More Posts"
+  translation: "More"
 - id: olderPosts
   translation: "Older Posts"
 - id: newerPosts
