@@ -6,3 +6,4 @@ thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/Git
 draft: false
 sitelink: https://brockdsl.github.io/Making-a-Free-Webpage-with-GitHub-Pages/
 ---
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Making-a-Free-Webpage-with-GitHub-Pages/'" />

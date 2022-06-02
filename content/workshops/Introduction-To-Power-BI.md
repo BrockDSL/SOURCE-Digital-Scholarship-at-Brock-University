@@ -6,3 +6,5 @@ thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/Int
 draft: false
 sitelink: https://brockdsl.github.io/Introduction-to-Power-BI/
 ---
+
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Introduction-to-Power-BI/'" />

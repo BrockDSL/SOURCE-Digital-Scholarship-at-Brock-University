@@ -6,3 +6,4 @@ thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/Git
 draft: false
 sitelink: https://brockdsl.github.io/Introduction-to-GitHub-Repositories-and-GitHub-Desktop/
 ---
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Introduction-to-GitHub-Repositories-and-GitHub-Desktop/'" />

@@ -6,3 +6,4 @@ thumbnail: https://brockdsl.github.io/Intro_to_Citation_Management_Zotero/Citati
 draft: false
 sitelink: https://brockdsl.github.io/Intro_to_Citation_Management_Zotero/
 ---
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Intro_to_Citation_Management_Zotero/'" />

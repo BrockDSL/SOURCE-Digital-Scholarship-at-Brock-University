@@ -7,3 +7,4 @@ tags: ["Python"]
 draft: false
 sitelink: https://brockdsl.github.io/Text_Analysis_with_Python/
 ---
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Text_Analysis_with_Python/'" />

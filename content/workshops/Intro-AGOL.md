@@ -6,3 +6,4 @@ thumbnail: https://github.com/BrockDSL/SOURCE-Digital-Scholarship-at-Brock-Unive
 draft: false
 sitelink: https://brockdsl.github.io/Introduction-to-ArcGIS-Online/
 ---
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Introduction-to-ArcGIS-Online/'" />

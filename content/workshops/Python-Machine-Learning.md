@@ -8,3 +8,4 @@ draft: false
 sitelink: https://brockdsl.github.io/Machine_Learning_with_Python/
 ---
 
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/Machine_Learning_with_Python/'" />
