@@ -50,10 +50,10 @@ googleAnalytics = "UA-128270403-1"
   url = "workshops"
   weight = 1
 
-#[[menu.main]]
-#  name = "Tutorials"
-#  url = "tutorials"
-#  weight = 2
+[[menu.main]]
+  name = "Guides"
+  url = "guides"
+  weight = 2
 
 [[menu.main]]
   name = "Projects"
