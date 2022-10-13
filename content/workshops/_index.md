@@ -10,4 +10,6 @@ title: Workshops
 
 <a href="https://experiencebu.brocku.ca/organization/dsl"><img src="https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/EXBUbutton.png?raw=true" alt="EXBU Button"></a>
 
+<a href="https://experiencebu.brocku.ca/organization/dsl"><img src="https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/EventbriteButton.png?raw=true" alt="EXBU Button"></a>
+
 
