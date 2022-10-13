@@ -8,6 +8,6 @@ title: Workshops
 
 </br>
 
-<button onclick="https://experiencebu.brocku.ca/organization/dsl">Experience BU</button>
-<button onclick="https://www.eventbrite.ca/o/brock-university-digital-scholarship-lab-21661627350">Eventbrite</button>
+<a href="https://experiencebu.brocku.ca/organization/dsl"><img src="https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/EXBUbutton.png?raw=true" alt="EXBU Button"></a>
+
 
