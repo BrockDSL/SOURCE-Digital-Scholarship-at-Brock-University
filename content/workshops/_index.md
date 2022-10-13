@@ -6,7 +6,7 @@ title: Workshops
   
 <head>
         <style>
-                a.button1{
+                a.button1x{
                 display:inline-block;
                 padding:0.35em 1.2em;
                 border:0.1em solid #FFFFFF;
@@ -21,13 +21,13 @@ title: Workshops
                 transition: all 0.2s;
                 !important;
             }
-                a.button1:hover{
+                a.button1x:hover{
              color:#000000;
                  background-color:#FFFFFF;
                  !important;
               }
                 @media all and (max-width:30em){
-                 a.button1{
+                 a.button1x{
                  display:block;
                  margin:0.4em auto;
                  !important;
@@ -42,6 +42,6 @@ title: Workshops
 
 </br>
 
-<a href="https://experiencebu.brocku.ca/organization/dsl" class="button1">Experience BU</a>
-<a href="https://www.eventbrite.ca/o/brock-university-digital-scholarship-lab-21661627350" class="button1">Eventbrite</a>
+<a href="https://experiencebu.brocku.ca/organization/dsl" class="button1x">Experience BU</a>
+<a href="https://www.eventbrite.ca/o/brock-university-digital-scholarship-lab-21661627350" class="button1x">Eventbrite</a>
 
