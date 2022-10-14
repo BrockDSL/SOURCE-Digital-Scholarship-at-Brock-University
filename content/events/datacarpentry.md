@@ -6,3 +6,5 @@ thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/dat
 draft: false
 sitelink: https://brockdsl.github.io/2023-02-23-Brock-Hybrid/
 ---
+
+<meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/2023-02-23-Brock-Hybrid/'" />

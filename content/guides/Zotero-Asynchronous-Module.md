@@ -6,4 +6,5 @@ thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/Zot
 draft: false
 sitelink: https://brockdsl.github.io/A-Step-by-Step-Guide-to-Zotero/
 ---
+
 <meta http-equiv="Refresh" content="0; url='https://brockdsl.github.io/A-Step-by-Step-Guide-to-Zotero/'" />
