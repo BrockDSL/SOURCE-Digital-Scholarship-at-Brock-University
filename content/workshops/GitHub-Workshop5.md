@@ -2,7 +2,7 @@
 title: "GitHub Tips for Programmers"
 description: "Learn about tips for programmers in GitHub"
 date:
-thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/Github_Part5.png?raw=true
+thumbnail: https://github.com/BrockDSL/BrockDSL.github.io/blob/master/Images/GitHub_Part5.png?raw=true
 draft: false
 sitelink: https://brockdsl.github.io/GitHub-Tips-for-Programmers/
 ---
