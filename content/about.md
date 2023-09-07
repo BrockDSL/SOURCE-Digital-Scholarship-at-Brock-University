@@ -13,11 +13,6 @@ The goal of this website is to provide an additional place to host instructional
 
 Please check out our [primary homepage](https://brocku.ca/library/dsl) to get the full picture of all that we do.
 
-## Listen to our podcast
-
-![PodCast Logo](../Images/podcast_logo.png)
-[Steering the Digital Scholarship](https://soundcloud.com/brock_dsl) is the podcast we produce that chronicles the story of us putting together the  services we offer and development of the space.
-
 ## Attending a Workshop?
 
 We post sign-ups for all of our workshops in two places:
