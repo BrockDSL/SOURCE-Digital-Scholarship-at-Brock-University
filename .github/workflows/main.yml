@@ -1,6 +1,6 @@
 
 #Name of action
-name: hugo CI
+name: Hugo Runner
 
 #This makes the action trigger on any push or commit to the master branch of the repository
 on:
@@ -13,19 +13,22 @@ on:
 #This is the list of tasks that the action will execute.  They will be executed in order an in an Ubuntu environment
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
       #This task checks out the git repository so it can be used by your workflow and action
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true 
-          fetch-depth: 1   
+          fetch-depth: 0   
       #This task sets up hugo in the actions environment
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.119.0'
       #This task installs the dependencies required for hugo to build a site using the "Blist" theme
       - name: Install dependencies
         run: |
